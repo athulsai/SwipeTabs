@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0B25E5A1FE6A98500A2FD46 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B25E591FE6A98500A2FD46 /* MainCollectionViewCell.swift */; };
+		A0CFED731FE653A900BB9740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFED721FE653A900BB9740 /* AppDelegate.swift */; };
+		A0CFED751FE653A900BB9740 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFED741FE653A900BB9740 /* MainViewController.swift */; };
+		A0CFED781FE653A900BB9740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CFED761FE653A900BB9740 /* Main.storyboard */; };
+		A0CFED7A1FE653A900BB9740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CFED791FE653A900BB9740 /* Assets.xcassets */; };
+		A0CFED7D1FE653A900BB9740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CFED7B1FE653A900BB9740 /* LaunchScreen.storyboard */; };
+		A0CFED881FE653A900BB9740 /* SwipeTabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFED871FE653A900BB9740 /* SwipeTabsTests.swift */; };
+		A0CFED931FE653A900BB9740 /* SwipeTabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFED921FE653A900BB9740 /* SwipeTabsUITests.swift */; };
+		A0CFEDA21FE65CA800BB9740 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFEDA11FE65CA800BB9740 /* TabBarView.swift */; };
+		A0CFEDA41FE65FEF00BB9740 /* TabBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFEDA31FE65FEF00BB9740 /* TabBarCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0CFED841FE653A900BB9740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CFED671FE653A900BB9740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CFED6E1FE653A900BB9740;
+			remoteInfo = SwipeTabs;
+		};
+		A0CFED8F1FE653A900BB9740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CFED671FE653A900BB9740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CFED6E1FE653A900BB9740;
+			remoteInfo = SwipeTabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0B25E591FE6A98500A2FD46 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		A0CFED6F1FE653A900BB9740 /* SwipeTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CFED721FE653A900BB9740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0CFED741FE653A900BB9740 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A0CFED771FE653A900BB9740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0CFED791FE653A900BB9740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0CFED7C1FE653A900BB9740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0CFED7E1FE653A900BB9740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CFED831FE653A900BB9740 /* SwipeTabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CFED871FE653A900BB9740 /* SwipeTabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTabsTests.swift; sourceTree = "<group>"; };
+		A0CFED891FE653A900BB9740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CFED8E1FE653A900BB9740 /* SwipeTabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CFED921FE653A900BB9740 /* SwipeTabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTabsUITests.swift; sourceTree = "<group>"; };
+		A0CFED941FE653A900BB9740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CFEDA11FE65CA800BB9740 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A0CFEDA31FE65FEF00BB9740 /* TabBarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CFED6C1FE653A900BB9740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFED801FE653A900BB9740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFED8B1FE653A900BB9740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0B25E5B1FE6BCA900A2FD46 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFEDA31FE65FEF00BB9740 /* TabBarCollectionViewCell.swift */,
+				A0B25E591FE6A98500A2FD46 /* MainCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		A0CFED661FE653A900BB9740 = {
+			isa = PBXGroup;
+			children = (
+				A0CFED711FE653A900BB9740 /* SwipeTabs */,
+				A0CFED861FE653A900BB9740 /* SwipeTabsTests */,
+				A0CFED911FE653A900BB9740 /* SwipeTabsUITests */,
+				A0CFED701FE653A900BB9740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CFED701FE653A900BB9740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFED6F1FE653A900BB9740 /* SwipeTabs.app */,
+				A0CFED831FE653A900BB9740 /* SwipeTabsTests.xctest */,
+				A0CFED8E1FE653A900BB9740 /* SwipeTabsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0CFED711FE653A900BB9740 /* SwipeTabs */ = {
+			isa = PBXGroup;
+			children = (
+				A0B25E5B1FE6BCA900A2FD46 /* CollectionViewCells */,
+				A0CFEDA01FE65C8500BB9740 /* Views */,
+				A0CFED721FE653A900BB9740 /* AppDelegate.swift */,
+				A0CFED741FE653A900BB9740 /* MainViewController.swift */,
+				A0CFED761FE653A900BB9740 /* Main.storyboard */,
+				A0CFED791FE653A900BB9740 /* Assets.xcassets */,
+				A0CFED7B1FE653A900BB9740 /* LaunchScreen.storyboard */,
+				A0CFED7E1FE653A900BB9740 /* Info.plist */,
+			);
+			path = SwipeTabs;
+			sourceTree = "<group>";
+		};
+		A0CFED861FE653A900BB9740 /* SwipeTabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFED871FE653A900BB9740 /* SwipeTabsTests.swift */,
+				A0CFED891FE653A900BB9740 /* Info.plist */,
+			);
+			path = SwipeTabsTests;
+			sourceTree = "<group>";
+		};
+		A0CFED911FE653A900BB9740 /* SwipeTabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFED921FE653A900BB9740 /* SwipeTabsUITests.swift */,
+				A0CFED941FE653A900BB9740 /* Info.plist */,
+			);
+			path = SwipeTabsUITests;
+			sourceTree = "<group>";
+		};
+		A0CFEDA01FE65C8500BB9740 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFEDA11FE65CA800BB9740 /* TabBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CFED6E1FE653A900BB9740 /* SwipeTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CFED971FE653A900BB9740 /* Build configuration list for PBXNativeTarget "SwipeTabs" */;
+			buildPhases = (
+				A0CFED6B1FE653A900BB9740 /* Sources */,
+				A0CFED6C1FE653A900BB9740 /* Frameworks */,
+				A0CFED6D1FE653A900BB9740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeTabs;
+			productName = SwipeTabs;
+			productReference = A0CFED6F1FE653A900BB9740 /* SwipeTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0CFED821FE653A900BB9740 /* SwipeTabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CFED9A1FE653A900BB9740 /* Build configuration list for PBXNativeTarget "SwipeTabsTests" */;
+			buildPhases = (
+				A0CFED7F1FE653A900BB9740 /* Sources */,
+				A0CFED801FE653A900BB9740 /* Frameworks */,
+				A0CFED811FE653A900BB9740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CFED851FE653A900BB9740 /* PBXTargetDependency */,
+			);
+			name = SwipeTabsTests;
+			productName = SwipeTabsTests;
+			productReference = A0CFED831FE653A900BB9740 /* SwipeTabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0CFED8D1FE653A900BB9740 /* SwipeTabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CFED9D1FE653A900BB9740 /* Build configuration list for PBXNativeTarget "SwipeTabsUITests" */;
+			buildPhases = (
+				A0CFED8A1FE653A900BB9740 /* Sources */,
+				A0CFED8B1FE653A900BB9740 /* Frameworks */,
+				A0CFED8C1FE653A900BB9740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CFED901FE653A900BB9740 /* PBXTargetDependency */,
+			);
+			name = SwipeTabsUITests;
+			productName = SwipeTabsUITests;
+			productReference = A0CFED8E1FE653A900BB9740 /* SwipeTabsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CFED671FE653A900BB9740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Athul.NET;
+				TargetAttributes = {
+					A0CFED6E1FE653A900BB9740 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A0CFED821FE653A900BB9740 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0CFED6E1FE653A900BB9740;
+					};
+					A0CFED8D1FE653A900BB9740 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0CFED6E1FE653A900BB9740;
+					};
+				};
+			};
+			buildConfigurationList = A0CFED6A1FE653A900BB9740 /* Build configuration list for PBXProject "SwipeTabs" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0CFED661FE653A900BB9740;
+			productRefGroup = A0CFED701FE653A900BB9740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CFED6E1FE653A900BB9740 /* SwipeTabs */,
+				A0CFED821FE653A900BB9740 /* SwipeTabsTests */,
+				A0CFED8D1FE653A900BB9740 /* SwipeTabsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CFED6D1FE653A900BB9740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CFED7D1FE653A900BB9740 /* LaunchScreen.storyboard in Resources */,
+				A0CFED7A1FE653A900BB9740 /* Assets.xcassets in Resources */,
+				A0CFED781FE653A900BB9740 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFED811FE653A900BB9740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFED8C1FE653A900BB9740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CFED6B1FE653A900BB9740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CFEDA41FE65FEF00BB9740 /* TabBarCollectionViewCell.swift in Sources */,
+				A0CFED751FE653A900BB9740 /* MainViewController.swift in Sources */,
+				A0B25E5A1FE6A98500A2FD46 /* MainCollectionViewCell.swift in Sources */,
+				A0CFEDA21FE65CA800BB9740 /* TabBarView.swift in Sources */,
+				A0CFED731FE653A900BB9740 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFED7F1FE653A900BB9740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CFED881FE653A900BB9740 /* SwipeTabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFED8A1FE653A900BB9740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CFED931FE653A900BB9740 /* SwipeTabsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0CFED851FE653A900BB9740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CFED6E1FE653A900BB9740 /* SwipeTabs */;
+			targetProxy = A0CFED841FE653A900BB9740 /* PBXContainerItemProxy */;
+		};
+		A0CFED901FE653A900BB9740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CFED6E1FE653A900BB9740 /* SwipeTabs */;
+			targetProxy = A0CFED8F1FE653A900BB9740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0CFED761FE653A900BB9740 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CFED771FE653A900BB9740 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0CFED7B1FE653A900BB9740 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CFED7C1FE653A900BB9740 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0CFED951FE653A900BB9740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0CFED961FE653A900BB9740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0CFED981FE653A900BB9740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QENL5D7TW2;
+				INFOPLIST_FILE = SwipeTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.athul.SwipeTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A0CFED991FE653A900BB9740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QENL5D7TW2;
+				INFOPLIST_FILE = SwipeTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.athul.SwipeTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A0CFED9B1FE653A900BB9740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.athul.SwipeTabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeTabs.app/SwipeTabs";
+			};
+			name = Debug;
+		};
+		A0CFED9C1FE653A900BB9740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.athul.SwipeTabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeTabs.app/SwipeTabs";
+			};
+			name = Release;
+		};
+		A0CFED9E1FE653A900BB9740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeTabsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.athul.SwipeTabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeTabs;
+			};
+			name = Debug;
+		};
+		A0CFED9F1FE653A900BB9740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeTabsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.athul.SwipeTabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeTabs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CFED6A1FE653A900BB9740 /* Build configuration list for PBXProject "SwipeTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFED951FE653A900BB9740 /* Debug */,
+				A0CFED961FE653A900BB9740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CFED971FE653A900BB9740 /* Build configuration list for PBXNativeTarget "SwipeTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFED981FE653A900BB9740 /* Debug */,
+				A0CFED991FE653A900BB9740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CFED9A1FE653A900BB9740 /* Build configuration list for PBXNativeTarget "SwipeTabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFED9B1FE653A900BB9740 /* Debug */,
+				A0CFED9C1FE653A900BB9740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CFED9D1FE653A900BB9740 /* Build configuration list for PBXNativeTarget "SwipeTabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFED9E1FE653A900BB9740 /* Debug */,
+				A0CFED9F1FE653A900BB9740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0CFED671FE653A900BB9740 /* Project object */;
+}
